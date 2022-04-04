@@ -5,15 +5,19 @@
 # class.
 
 class Dept:
-    def __init__(self, name=None):
-        self.name = name or "SCO"
-    
-    def __str__(self):
-        return self.name
-
-    
-if __name__ == "__main__":
-    dept1 = Dept()
-    dept2 = Dept("CSE")
-    print(dept1.__str__())
-    print(dept2.__str__())
+    def __init__(self, *args):
+        if len(args) == 1:
+            self.dept=args[0]
+ 
+        elif len(args) == 0:
+            self.dept="SCO"
+   
+    def deptname(self):
+        print(self.dept)
+   
+ 
+d1=Dept()
+d1.deptname()
+ 
+d2=Dept("CSE")
+d2.deptname()
