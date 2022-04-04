@@ -9,7 +9,7 @@ class SRMIST:
     dept2 = "ECE"
     dept3 = "EEE"
     dept4 = "MECH"
-    specialization = "Computer Science"
+    specialization = "Blockchain"
 
     def __init__(self, dept1, dept2, dept3, dept4, specialization):
         self.dept1 = dept1
@@ -21,7 +21,7 @@ class SRMIST:
     def remove_dept(self):
         del self.dept1
         del self.dept2
-        print(self.school, self.dept3, self.specialization)
+        print(self.school, self.dept3, self.dept4, self.specialization)
 
 name = input("Enter your name: ")
 dept1 = input("Enter your dept1: ")
