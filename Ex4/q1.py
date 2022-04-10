@@ -8,23 +8,23 @@ connection = sqlite3.connect('q1.db')
 cursor = connection.cursor()
 
 # Create table
-cursor.execute("""CREATE TABLE recipes (
-    name text,
-    description text,
-    category_id integer,
-    chef_id text,
-    created timestamp
-)""")
+# cursor.execute("""CREATE TABLE recipes (
+#     name text,
+#     description text,
+#     category_id integer,
+#     chef_id text,
+#     created timestamp
+# )""")
 
 # insert data
-time = datetime.now()
-recipes = [
-    ("paneer masala", "p m", 101, "BL00001", time),
-    ("chicken masala", "c m", 102, "BL00002", time),
-    ("butter naan", "chinese", 103, "BL00003", time),
-]
+# time = datetime.now()
+# recipes = [
+#     ("paneer masala", "p m", 101, "BL00001", time),
+#     ("chicken masala", "c m", 102, "BL00002", time),
+#     ("butter naan", "chinese", 103, "BL00003", time),
+# ]
 
-cursor.executemany("INSERT INTO recipes VALUES (?, ?, ?, ?, ?)", recipes)
+# cursor.executemany("INSERT INTO recipes VALUES (?, ?, ?, ?, ?)", recipes)
 
 # query to db
 cursor.execute("SELECT * FROM recipes WHERE description = 'chinese'")
