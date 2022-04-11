@@ -26,6 +26,7 @@ cursor = connection.cursor()
 
 # query to db
 cursor.execute("UPDATE movies SET rating = (rating + (rating * 0.1))")
+cursor.execute("SELECT movie_name, rating from movies")
 movies = cursor.fetchall()
 print(movies)
 print('-----------------------------------------------------')
