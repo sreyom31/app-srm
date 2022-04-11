@@ -33,6 +33,11 @@ cursor = connection.cursor()
 # cursor.executemany("INSERT INTO recipes VALUES (?, ?, ?, ?, ?)", recipes)
 
 # query to db
+cursor.execute("SELECT * FROM recipes")
+recipes = cursor.fetchall()
+print(len(recipes))
+print("-----------------------------------------------------")
+
 cursor.execute("SELECT * FROM recipes WHERE description = 'chinese'")
 recipes = cursor.fetchall()
 print(len(recipes))
