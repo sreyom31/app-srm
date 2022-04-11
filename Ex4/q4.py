@@ -1,3 +1,7 @@
+# Write a SQL lite3 statement to create a table named as job including columns
+# job_id,job_title,Min-salary,Max_salary.job_id column does not contain any duplicate
+# value at the time of insertion
+
 import sqlite3
 
 # Connect to database

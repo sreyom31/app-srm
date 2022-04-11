@@ -1,3 +1,8 @@
+# Write a SQL lite3 statement to create a table names as job_history including columns
+# employee_id, start_date, end_date, job_id and department_id and make sure that, the
+# employee_id column does not contain any duplicate value at the time of insertion and the
+# foreign key column job_id contain only those values which are exists in the jobs table.
+
 import sqlite3
 
 # Connect to database

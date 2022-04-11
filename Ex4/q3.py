@@ -1,3 +1,10 @@
+# Create a course database with the following fields Product(ID, Prod_name,
+# Supplier_id,Unit_price,Package,OrderID),OrderItem(ID,Order_id,Product_id,Unit_price,
+# Quantity) using Foreign key
+# d. Display the total quantity of every product in the stock
+# e. Sort the Unit_price based on the supplier_id
+# f. Display the Product_name along with order_id and supplier_id
+
 import sqlite3
 
 # Connect to database

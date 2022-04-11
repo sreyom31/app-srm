@@ -1,3 +1,9 @@
+# Create a table movie of the below structure and assume data types.Movie_ID,
+# Movie_Name, Genre, Language, Rating ,Do the following queries
+# a. Update the movies rating by 10% and display it
+# b. Delete the movies with movie_id 102
+# c. Select movies whose rating is more than 3.
+
 import sqlite3
 
 # Connect to database
