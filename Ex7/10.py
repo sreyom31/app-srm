@@ -1,4 +1,4 @@
-# Filter the array, and return a new array with only the values equal to or above 18 ( consider filter function)
+# Write a Python program to filter only vowels from given sequence.
 
 def pro_vowel(c):
     newstr = c

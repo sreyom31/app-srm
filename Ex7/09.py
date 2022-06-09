@@ -1,4 +1,4 @@
-# Write a Python program to add two given lists and find the difference between lists. Use map() function.
+# Filter the array, and return a new array with only the values equal to or above 18 ( consider filter function)
 
 a = input("Enter list elements: ")
 seq  = list(map(int,list(a.split())))

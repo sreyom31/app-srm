@@ -1,4 +1,4 @@
-# Write a Python program to calculate sum of numbers from the list and maximum element from the list (use reduce function)
+# Write a python program to calculate factorial of given number ( use reduce function)
 
 import functools
 def mult(x,y):
