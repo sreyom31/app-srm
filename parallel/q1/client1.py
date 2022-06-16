@@ -4,7 +4,7 @@ import sys
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 IP_address = socket.gethostname()
-Port = 12345
+Port = 12346
 server.connect((IP_address, Port))
 
 while True:

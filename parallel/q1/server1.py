@@ -8,7 +8,7 @@ server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 IP_address = socket.gethostname()
 
-Port = 12345
+Port = 12346
 
 server.bind((IP_address, Port))
 
