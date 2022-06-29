@@ -2,7 +2,7 @@ def check(arr):
     for num in arr:
         if num in arr[arr.index(num)+1:]:
             return False
-        return True
+    return True
 
 numbers = list(map(int, input("Enter the numbers: ").split()))
 
